@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_one">1</string>
+    <string name="key_two">2</string>
+    <string name="key_three">3</string>
+    <string name="key_four">4</string>
+    <string name="key_five">5</string>
+    <string name="key_six">6</string>
+    <string name="key_seven">7</string>
+    <string name="key_eight">8</string>
+    <string name="key_nine">9</string>
+    <string name="key_zero">0</string>
+    <string name="key_abc"><b>ABC</b></string>
+    <string name="key_def"><b>DEF</b></string>
+    <string name="key_jkl"><b>JKL</b></string>
+    <string name="key_mno"><b>MNO</b></string>
+    <string name="key_ghi"><b>GHI</b></string>
+    <string name="key_pqrs"><b>PQRS</b></string>
+    <string name="key_tub"><b>TUB</b></string>
+    <string name="key_wxyz"><b>WXYZ</b></string>
+    <string name="key_spot">.</string>
+    <string name="key_next">下一步</string>
+</resources>

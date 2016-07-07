@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/grid_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_layout_back"
+    android:orientation="vertical">
+
+    <!-- 第一排键 -->
+
+    <LinearLayout
+        style="@style/KeyboardRowLayout">
+
+        <LinearLayout
+            android:id="@+id/one"
+            style="@style/KeyboardLayout"
+            android:layout_marginRight="1dp">
+
+            <TextView
+                style="@style/NumberKeyboardTv"
+                android:text="@string/key_one"/>
+
+            <TextView
+                style="@style/EnglishKeyboardTv"
+                android:text=""
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/two"
+            style="@style/KeyboardLayout">
+
+            <TextView
+                style="@style/NumberKeyboardTv"
+                android:text="@string/key_two"/>
+
+            <TextView
+                style="@style/EnglishKeyboardTv"
+                android:text="@string/key_abc"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/three"
+            style="@style/KeyboardLayout"
+            android:layout_marginLeft="1dp">
+
+            <TextView
+                style="@style/NumberKeyboardTv"
+                android:text="@string/key_three"/>
+
+            <TextView
+                style="@style/EnglishKeyboardTv"
+                android:text="@string/key_def"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 第二排键 -->
+
+    <LinearLayout
+        style="@style/KeyboardRowLayout">
+
+        <LinearLayout
+            android:id="@+id/four"
+            style="@style/KeyboardLayout"
+            android:layout_marginRight="1dp">
+
+            <TextView
+                style="@style/NumberKeyboardTv"
+                android:text="@string/key_four"/>
+
+            <TextView
+                style="@style/EnglishKeyboardTv"
+                android:text="@string/key_ghi"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/five"
+            style="@style/KeyboardLayout">
+
+            <TextView
+                style="@style/NumberKeyboardTv"
+                android:text="@string/key_five"/>
+
+            <TextView
+                style="@style/EnglishKeyboardTv"
+                android:text="@string/key_jkl"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/six"
+            style="@style/KeyboardLayout"
+            android:layout_marginLeft="1dp">
+
+            <TextView
+                style="@style/NumberKeyboardTv"
+                android:text="@string/key_six"/>
+
+            <TextView
+                style="@style/EnglishKeyboardTv"
+                android:text="@string/key_mno"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 第三排键 -->
+
+    <LinearLayout
+        style="@style/KeyboardRowLayout">
+
+        <LinearLayout
+            android:id="@+id/seven"
+            style="@style/KeyboardLayout"
+            android:layout_marginRight="1dp">
+
+            <TextView
+                style="@style/NumberKeyboardTv"
+                android:text="@string/key_seven"/>
+
+            <TextView
+                style="@style/EnglishKeyboardTv"
+                android:text="@string/key_pqrs"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/eight"
+            style="@style/KeyboardLayout">
+
+            <TextView
+                style="@style/NumberKeyboardTv"
+                android:text="@string/key_eight"/>
+
+            <TextView
+                style="@style/EnglishKeyboardTv"
+                android:text="@string/key_tub"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nine"
+            style="@style/KeyboardLayout"
+            android:layout_marginLeft="1dp">
+
+            <TextView
+                style="@style/NumberKeyboardTv"
+                android:text="@string/key_nine"/>
+
+            <TextView
+                style="@style/EnglishKeyboardTv"
+                android:text="@string/key_wxyz"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- 第四排键 -->
+
+    <LinearLayout
+        style="@style/KeyboardRowLayout">
+
+        <LinearLayout
+            android:id="@+id/zero_left"
+            style="@style/KeyboardLayout"
+            android:layout_marginRight="1dp"
+            >
+
+            <TextView
+                android:id="@+id/key_psd"
+                style="@style/ChineseKeyboardTv"
+                android:layout_height="match_parent"
+                android:text="@string/key_spot"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/zero"
+            style="@style/KeyboardLayout">
+
+            <TextView
+                style="@style/NumberKeyboardTv"
+                android:layout_height="match_parent"
+                android:text="@string/key_zero"/>
+
+            <TextView
+                style="@style/EnglishKeyboardTv"
+                android:layout_height="match_parent"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/zero_right"
+            style="@style/KeyboardLayout"
+            android:layout_marginLeft="1dp"
+            android:background="@drawable/main_key_back_selector_other">
+
+            <TextView
+                style="@style/ChineseKeyboardTv"
+                android:layout_height="match_parent"
+                android:text="@string/key_next"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
